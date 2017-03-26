@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-gap: 10px;
+  grid-template-rows: 1fr 3fr 3fr 3fr 1fr;
+}
+
+.box {
+  background-color: mediumseagreen;
+  font-family: "Roboto";
+  font-size: 40px;
+}
