@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-gap: 10px;
+  height: 100vh;
+  grid-template-columns: repeat(
+    auto-fit,
+    /* auto-fill, */
+    minmax(100px, auto)
+    minmax(200px, auto)
+  );
+}
+
+.container > * {
+  font-family: "Roboto";
+  font-size: 40px;
+  background-color: mediumseagreen;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
