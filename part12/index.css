@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+.box {
+  background-color: mediumseagreen;
+  font-size: 30px;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:nth-of-type(2) {
+  /* default order is 0 */
+  order: 1;
+}
+
+.box:nth-of-type(5) {
+  /* works as order 0 */
+  grid-row: 10;
+}
