@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid: 3fr 10fr/ auto-flow dense 1fr 2fr;
+  grid-gap: 20px;
+}
+
+.box {
+  background-color: mediumseagreen;
+  font-family: "Roboto";
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:nth-of-type(2) {
+  grid-row: span 3;
+}
